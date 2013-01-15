@@ -23,7 +23,7 @@ public final class Sluice {
         }
         String baseDir = args[0];
         int port = 8080;
-        if (args.length == 2) {
+        if (args.length > 1) {
             try {
                 port = Integer.valueOf(args[1]);
             } catch (NumberFormatException nfe) {
