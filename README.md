@@ -9,7 +9,7 @@ Compilation
 
 Sluice uses [ply](http://github.com/blangel/ply) as its build tool, ensure you have it installed.  To compile:
 
-    $ ply clean compile package
+    $ ply clean install
 
 One can then copy the generated `target/sluice-1.0.jar` into a scripts directory for `ply` to execute.
 
